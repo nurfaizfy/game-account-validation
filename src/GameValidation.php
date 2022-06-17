@@ -33,7 +33,7 @@ class GameValidation
 
         if ($post) {
             $response = $client->request('POST', $url, [
-                'json' => $post,
+                'form_params' => $post,
             ])->getBody()->getContents();
         } else {
             $response = $client->request('GET', $url)->getBody()->getContents();
