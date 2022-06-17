@@ -16,7 +16,7 @@ echo $app->gameList();
 CHECK
 ------------
 ```php
-use Namdevel\Codashop;
+use Gonon\GameValidation;
 require(__DIR__ . '/vendor/autoload.php');
 echo $app->checkUser('MOBILE_LEGENDS', <USER_ID>, <ZONE_ID>);
 ```
