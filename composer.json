@@ -1,0 +1,21 @@
+{
+    "name": "nurfaizfy/game-account-validation",
+    "description": "API for validation account game",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gonon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nurfaizfy",
+            "email": "nurfaizfy19@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
