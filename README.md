@@ -1,31 +1,34 @@
 # Game Validation API
  Game account validation by ID and Server
+
+## Documentation
+[Documentation](https://documenter.getpostman.com/view/10409939/UzBmLSJa)
  
-Installation
+## Installation
 ------------
 ```
 composer require nurfaizfy/game-account-validation
 ```
-GAME LIST
+## Game List
 ------------
 ```php
 use Gonon\GameValidation;
 require(__DIR__ . '/vendor/autoload.php');
 echo $app->gameList();
 ```
-CHECK
+## Validate Account
 ------------
 ```php
 use Gonon\GameValidation;
 require(__DIR__ . '/vendor/autoload.php');
 echo $app->checkUser('MOBILE_LEGENDS', <USER_ID>, <ZONE_ID>);
 ```
-License
+## License
 ------------
 
 This open-source software is distributed under the MIT License. See LICENSE.md
 
-Contributing
+## Contributing
 ------------
 
 All kinds of contributions are welcome - code, tests, documentation, bug reports, new features, etc...

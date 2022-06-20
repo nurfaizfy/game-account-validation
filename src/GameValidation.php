@@ -8,7 +8,7 @@ use Gonon\ApiException;
 
 class GameValidation
 {
-    const API_URL = "https://gonon.my.id/api/v1/game-validation";
+    const API_URL = "https://api.gonon.my.id/api/v1/game-validation";
     
     public function checkUser($code, $userId, $zoneId = null)
     {
