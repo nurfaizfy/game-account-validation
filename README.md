@@ -14,6 +14,7 @@ composer require nurfaizfy/game-account-validation
 ```php
 use Gonon\GameValidation;
 require(__DIR__ . '/vendor/autoload.php');
+$app = new GameValidation();
 echo $app->gameList();
 ```
 ## Validate Account
@@ -21,6 +22,7 @@ echo $app->gameList();
 ```php
 use Gonon\GameValidation;
 require(__DIR__ . '/vendor/autoload.php');
+$app = new GameValidation();
 echo $app->checkUser('MOBILE_LEGENDS', <USER_ID>, <ZONE_ID>);
 ```
 ## License
